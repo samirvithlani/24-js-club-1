@@ -1,0 +1,40 @@
+programming lanaguge : c,java
+
+scripting lanaguge:js,python
+subset of programming lanaguge :
+
+diff between programming and scripting lanaguge :
+1)programming lanaguge is a set of instructions that produces various kinds of output.
+2)scripting lanaguge is a subset of programming lanaguge.
+3) programming lanaguge will be compiled and executed.
+4)scripting lanaguge will be executed line by line.
+
+----------------------------------------------------------------------------------------------------------------------------
+1)dynamically typed programming lanaguge : js,python,
+2)statically typed programming lanaguge :c,c++,java
+
+int a =10
+-----------------------------------------------
+server side:
+client side:js
+
+-------------------------------------------------
+we can write js in 3 ways.
+1)script
+2)inline
+3)external .js
+
+there are 3 keywords in js to declare a variable.
+1)let
+2)var
+3)const
+
+
+history:
+java script develope by netscape communication corporation.
+java script compiler is babble.js
+
+firefox spider monkey
+chrome v8
+safari 
+edge chakra
