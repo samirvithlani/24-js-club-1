@@ -45,3 +45,16 @@ else{
 
 console.log(p) // p is not defined
 
+
+
+var x =1000
+var y = "999+1"
+
+console.log(y)
+if(x == y){
+    console.log("Equal")
+}
+else{
+    console.log("Not Equal")
+}
+
