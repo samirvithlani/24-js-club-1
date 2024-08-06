@@ -38,3 +38,36 @@ firefox spider monkey
 chrome v8
 safari 
 edge chakra
+
+-------------------------------------------------
+operator:
+operators are special symbols that perform specific operations on one, two, or three operands, and then return a result.
+
+unary operator: it requires only one operand. ++,-- , a++ ,a--
+binary operator:it requires two operands
+ternary operator:it requires three operands : [? :]
+
+1)arithematic operator: +,-,*,/,%,++,--
+2)relational operator: <,>,<=,>=,==,===,!=,!==
+3)logical operator: &&,||,!
+4)assignment operator: =,+=,-=,*=,/=,%=,<<=,>>=,>>>=,&=,^=,|=
+    : =, it will asign right side value to left side variable.
+
+5)bitwise operator: &,|,^,~,<<,>>,>>>
+
+
+decision making:
+if else
+
+if(condition){
+    //true....
+}
+else{
+
+}
+    
+
+switch case
+looping:
+
+
