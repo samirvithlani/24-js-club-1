@@ -71,3 +71,35 @@ switch case
 looping:
 
 
+logical operaotr:
+&&
+||
+!
+
+if cond1 && cond2
+
+T       T      T
+F      -       F
+T      F      F
+
+if cond1 || cond2
+
+T    -      T
+F    F      F
+F    T     T
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
