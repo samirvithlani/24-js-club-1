@@ -90,16 +90,10 @@ F    T     T
 
 
 
+JSON
+String
+array
+json array
 
 
-
-
-
-
-
-
-
-
-
-
-
+JSON java script object notation...
