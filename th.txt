@@ -97,3 +97,18 @@ json array
 
 
 JSON java script object notation...
+
+
+String : "" <--> ''
+string data index formate 
+"ram"
+[0][1][2]
+
+mutablity and immutablity   :
+
+mutablity : modification is possible
+immutablity: modification is not possible.
+
+"ram" --> refernce change...
+
+var name = "ram"
