@@ -38,6 +38,19 @@ console.log(fullname)
 
 
 
+var data = "hi this is india"
+var spacecount =0;
+
+for(let i=0;i<data.length;i++){
+
+
+    if(data[i] == " "){
+        spacecount++;
+    }
+
+}
+console.log("space count = ",spacecount)
+console.log("no of words in data = "+(spacecount+1))
 
 
 
