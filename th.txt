@@ -112,3 +112,31 @@ immutablity: modification is not possible.
 "ram" --> refernce change...
 
 var name = "ram"
+
+
+//string ch :
+"royal" --> index.
+[r][o][y][a][l]
+[0][1][2][3][4]
+
+
+//string... aasci value
+A -->65
+B -->66
+C -->67
+..
+Z -->90
+
+a -->97
+b -->98
+..
+z -->122
+
+sapce -->32
+
+string
+length : to find the length of the string.
+toUpperCase() : to convert the string into upper case.
+toLowerCase() : to convert the string into lower case.
+charCodeAt(0) : it will return the ascii value of the character.
+String.fromCharCode(65) : it will return the character of the ascii value.
