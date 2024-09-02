@@ -140,3 +140,30 @@ toUpperCase() : to convert the string into upper case.
 toLowerCase() : to convert the string into lower case.
 charCodeAt(0) : it will return the ascii value of the character.
 String.fromCharCode(65) : it will return the character of the ascii value.
+
+-------------------------------------------------------------------------
+string = datatype
+"char" ->
+var x = "hello" array 
+array stores data in index manner
+array is always starts with 0 index.
+"hello"
+[h][e][l][l][o]
+[0][1][2][3][4]
+
+mutablity and immutablity:
+with same reference we can change the value. 
+immutablity : with same reference we can't change the value.
+
+var x = "ok"
+x+"java" --> "okjava"*
+x = x + "java" --> "okjava"
+
+-------------------------------------------------------------------------
+ascii values:
+65-90 : A-Z
+97-122 : a-z
+space : 32
+
+
+
