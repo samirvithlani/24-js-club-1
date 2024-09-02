@@ -167,6 +167,18 @@ space : 32
 
 
 
+-------------------------------------------------------------------------
+while loop
+
+please enter opening balance =
+
+min opening balance should be 10000
+if user enter less than 10000 then it should ask again.
+but give only 3 chances to the user.
+
+
+
+
 
 
 
