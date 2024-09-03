@@ -178,6 +178,93 @@ but give only 3 chances to the user.
 
 
 
+name{
+    ////
+    //
+    //
+    //
+    ///
+
+}
+
+user define function
+built in function
+
+//return type functionname(arguments){
+
+} 
+
+//data type
+//void main()
+//int demo()
+//float demo()
+
+//function
+function keyword..
+
+function  demo () {
+    code..
+}
+
+//10,000 lin code..
+
+bank applicatoin
+
+op ascii
+withdraw
+deposit
+....
+otp..
+
+
+100 line
+
+functions...
+
+line draw...
+
+drawline(){
+
+
+    //console.log("....................................)
+    console.log("####################################)
+
+
+}
+
+type of function
+1)with return type and with arguments
+2)with return type and without arguments
+3)without return type and with arguments
+4)without return type and without arguments
+
+//the function which is not returning anything and not taking any arguments.
+
+
+//5 task:"
+1)function implementation
+2)any programme : function with if else... use if else inside funciton...
+2)function with switch case... menu drive programme...
+
+
+// press 1 for add press 2 for sub.. prompt..
+
+switch(choice){
+
+
+    case 1:
+            add();
+        break;
+
+}
+
+3)function with loop:
+
+4) create json of wifi router inside function... min 10 key value pair.
+
+
+
+
 
 
 
