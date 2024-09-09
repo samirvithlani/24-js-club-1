@@ -263,6 +263,13 @@ switch(choice){
 4) create json of wifi router inside function... min 10 key value pair.
 
 
+//function funName(){
+
+    //code
+}
+
+funName()
+
 
 
 
