@@ -43,28 +43,3 @@ function checkElig(age){
 var age = parseInt(prompt("Enter your age : "));
 
 checkElig(age)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
