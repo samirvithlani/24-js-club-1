@@ -270,6 +270,10 @@ switch(choice){
 
 funName()
 
+//count
+
+("india","i") -->repete -->2
+
 
 
 
