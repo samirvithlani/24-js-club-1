@@ -20,3 +20,5 @@ console.log(users)
 
 
 var countries = ["india","china","bhutan","pakistan","nepal"]
+countries[countries.length] = "srilanka"
+console.log(countries)
