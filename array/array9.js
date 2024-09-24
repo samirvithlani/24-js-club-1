@@ -34,3 +34,18 @@ var flag2 = marks.every((m)=>{
     return m>=20
 })
 console.log("is all marks greater than 20 ",flag2) //true
+
+
+var users = ["parth","jay","raj","kunal","ram"]
+
+var falg3 = users.some((u)=>{
+    return u.includes("y")
+})
+
+console.log("is y present in users ",falg3) //true
+
+var flag4 = users.every((u)=>{
+
+    return u.includes("a")
+})
+console.log("is all users have a ",flag4) //false
