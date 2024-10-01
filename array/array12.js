@@ -22,3 +22,12 @@ console.log(evenArray);
 //diff bw filter and map
 //map will return new array with same length
 //filter will return new array with less length
+
+
+var data = ["india","sri lanka","england","australia","new zealand","south africa","west indies","pakistan","bangladesh","afganistan"]
+
+var datawspace = data.filter((d)=>{
+
+    return d.includes(" ")
+})
+console.log(datawspace);
