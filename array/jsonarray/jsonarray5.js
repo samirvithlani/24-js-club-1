@@ -26,3 +26,13 @@ var cases = [
     }
 ]
 //partName -->violation --> ipcs
+
+
+cases.forEach((c)=>{
+
+    console.log(c.partyName + " has done "+c.violation)
+    c.ipcs.forEach((i)=>{
+        console.log(i)
+    })
+
+})
