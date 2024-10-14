@@ -58,3 +58,9 @@ console.log(foundersofGoogle);
 var fbEmployees = companies.find((comp)=>comp.name =="facebook").employees.
 filter((emp)=>emp.age>35)
 console.log(fbEmployees);
+
+//fb emp names..
+
+const fbEMplNames  = companies.find((comp)=>comp.name=="facebook").employees.
+map((emp)=>emp.name);
+console.log(fbEMplNames);

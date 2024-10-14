@@ -33,3 +33,29 @@ var countries =[
 
 //find states of india
 //find states of usa havinf population greater than 15000000
+
+// var indiaPopulation =0;
+// for(let i=0;i<countries.length;i++){
+
+//     if(countries[i].name =="India"){
+
+//         for(let j=0;j<countries[i].states.length;j++){
+//             //india --> gu + mah
+//             indiaPopulation = indiaPopulation + countries[i].states[j].population
+//         }
+
+//     }
+
+
+// }
+// console.log(indiaPopulation);
+
+
+
+
+var indPop = countries.find((country)=>country.name == "India").states.
+reduce((sum,st)=>sum+st.population,0)
+console.log(indPop);
+
+
+
