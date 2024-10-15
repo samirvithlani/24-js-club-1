@@ -271,8 +271,12 @@ switch(choice){
 funName()
 
 //count
-
 ("india","i") -->repete -->2
+
+//events:
+
+dom: document object model
+js: to manup dom:
 
 
 
