@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./form2.js"></script>
+</head>
+<body>
+    <form onsubmit="handleSubmit(event)">
+        <div>
+            <label>NAME</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label>GENDER</label>
+            <br> <input type="radio" value="male" name="gender" >MALE:
+            <br> <input type="radio" value="female" name="gender">FEMALE:
+        </div>
+        <div>
+            <label>SPORTS</label>
+            <br> <input type="checkbox" value="cricket" name="sports">CRICKET
+            <br> <input type="checkbox" value="football" name="sports">FOOTBALL
+            <br> <input type="checkbox" value="hockey" name="sports">HOCKEY
+        </div>
+        <div>
+            <label>COLOR</label>
+            <input type="color" name="color" id="color">
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+    
+
+    <div id="output">
+        <p id="name-output"></p>
+        <p id="gender-output"></p>
+    </div>
+</body>
+</html>
