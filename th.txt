@@ -280,6 +280,20 @@ js: to manup dom:
 
 
 
+create employee onboarding form and display value:
+
+name
+email
+phone
+last salary : if salary > 50000 display all data in green color else red color.
+education qualification
+experience years
+passing year
+gender
+
+
+
+
 
 
 
