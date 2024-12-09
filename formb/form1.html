@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./form1.js"></script>
+</head>
+<body>
+    <!-- //action url -->
+    <!-- <form action="https://www.google.com"> -->
+        <form onsubmit="submitHandler(event)">
+        <div>
+            <label>NAME</label>
+            <input type="text" id="name" placeholder="Enter Name">
+        </div>
+        <div>
+            <label>AGE</label>
+            <input type="age" id="age" placeholder="Enter Age">
+        </div>
+        <div>
+            <label>COLOR</label>
+            <input type="color" id="color">
+        </div>
+        <div>
+            <label>GENDER</label>
+            <br>
+            MALE<input type="radio" name="gender" value="male">
+            <br>
+            FEMALE<input type="radio" name="gender" value="female">
+
+        </div>
+        <div>
+            <input type="submit" value="SUBMIT">
+        </div>
+    </form>
+    <div id="output">
+        <h1>OUTPUT</h1>
+        <p id="nameOutput"></p>
+        <p id="ageOutput"></p>
+        <p id="genderOutput"></p>
+    </div>
+</body>
+</html>
