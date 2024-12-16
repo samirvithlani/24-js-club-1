@@ -291,10 +291,4 @@ experience years
 passing year
 gender
 
-
-
-
-
-
-
-
+3 checkboxes -->2 checkbox
