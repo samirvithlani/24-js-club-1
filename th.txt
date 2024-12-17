@@ -292,3 +292,6 @@ passing year
 gender
 
 3 checkboxes -->2 checkbox
+
+window : window
+document : DOM
