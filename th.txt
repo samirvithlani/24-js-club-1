@@ -302,3 +302,8 @@ store....
 score ++
 
 10 time...
+
+div -->id  -->
+
+button ->listner --> div id get --> function -->radon no gen ->1 to 6 -->
+div innerhtml --> print.
