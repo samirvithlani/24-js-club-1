@@ -1,54 +1,55 @@
 var products = [
-    {
-        id:101,
-        name:"iphone 16",
-        price:1000,
-        qty:10
-    },
-    {
-        id:102,
-        name:"ipad mini",
-        price:800,
-        qty:8
-    },
-    {
-        id:103,
-        name:"key",
-        price:100,
-        qty:1
-    }
-]
+  {
+    id: 101,
+    name: "iphone 16",
+    price: 1000,
+    qty: 10,
+  },
+  {
+    id: 102,
+    name: "ipad mini",
+    price: 800,
+    qty: 8,
+  },
+  {
+    id: 103,
+    name: "key",
+    price: 100,
+    qty: 1,
+  },
+];
 
-const tbody = document.getElementById("tbody")
+window.addEventListener("DOMContentLoaded", () => {
 
-for(let i=0;i<products.length;i++){
+  const tbody = document.getElementById("tbody"); 
 
-    const tr = document.createElement("tr")//<tr>
+  for (let i = 0; i < products.length; i++) {
+    const tr = document.createElement("tr"); //<tr>
 
     //product[0].id
     //product[1].id
     //product[2].id
-    const idTd = document.createElement("td")
-    idTd.innerHTML = products[i].id
+    const idTd = document.createElement("td");
+    idTd.innerHTML = products[i].id;
 
-    const nameTd = document.createElement("td")
-    nameTd.innerHTML = products[i].name
+    const nameTd = document.createElement("td");
+    nameTd.innerHTML = products[i].name;
 
-    const priceTd = document.createElement("td")
-    priceTd.innerHTML = products[i].price
+    const priceTd = document.createElement("td");
+    priceTd.innerHTML = products[i].price;
 
-    const qtyTd = document.createElement("td")
-    qtyTd.innerHTML = products[i].qty
+    const qtyTd = document.createElement("td");
+    qtyTd.innerHTML = products[i].qty;
 
+    if (products[i].price >= 500) {
+      priceTd.style.color = "green";
+    }
 
-
-    tr.appendChild(idTd)
-    tr.appendChild(nameTd)
-    tr.appendChild(priceTd)
-    tr.appendChild(qtyTd)
-    tbody.appendChild(tr)
-
-}
-
-
+    tr.appendChild(idTd);
+    tr.appendChild(nameTd);
+    tr.appendChild(priceTd);
+    tr.appendChild(qtyTd);
+    tbody.appendChild(tr);
+  }
+});
 
