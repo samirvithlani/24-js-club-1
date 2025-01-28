@@ -1,0 +1,12 @@
+PROMISE:
+process:
+syncz : process finish ,,, start...
+      : 
+non sync : process .. start...
+
+--------------------------- time...
+######################### wait
+
+zomato --> search dish[60] --> cart[5] --> orderplace -->payment --> upi app -->sucess ->
+ order placed
+--->restu --> delivery [5]
