@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="domnode.js"></script>
+    <style>
+      #boxes {
+        display: flex;
+        flex-wrap: wrap;
+        width: 420px; /* 10 boxes * (40px + 2px margin on both sides) */
+      }
+      .box {
+        height: 40px;
+        width: 40px;
+        background-color: blue;
+        margin: 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      .box2{
+        height: 40px;
+        width: 40px;
+        background-color: red;
+        margin: 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <input id="txt" type="text" onkeyup="generateBox()" />
+    <div id="boxes"></div>
+  </body>
+</html>
